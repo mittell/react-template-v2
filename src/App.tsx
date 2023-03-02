@@ -4,16 +4,16 @@ import LOGO from './logo.svg';
 import ClickCounter from './ClickCounter';
 
 export const App = () => {
-	return (
-		<>
-			<h1>
-				React/TypeScript/Webpack Template - {process.env.NODE_ENV} -{' '}
-				{process.env.NODE_ENV}
-			</h1>
+    return (
+        <>
+            <h1>
+                React/TypeScript/Webpack Template - {process.env.NODE_ENV} -{' '}
+                {process.env.NODE_ENV}
+            </h1>
 
-			<img src={IMAGE} alt='Logo' width='300' height='300' />
-			<img src={LOGO} alt='Logo' width='300' />
-			<ClickCounter />
-		</>
-	);
+            <img src={IMAGE} alt="Logo" width="300" height="300" />
+            <img src={LOGO} alt="Logo" width="300" />
+            <ClickCounter />
+        </>
+    );
 };
